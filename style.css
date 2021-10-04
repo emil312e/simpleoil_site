@@ -1,0 +1,101 @@
+body {
+  background-color: #fff8ed;
+}
+
+.img-fluid {
+  padding: 0.25rem;
+  max-width: 8rem;
+  height: 8rem;
+}
+
+.navbar-nav {
+  align-items: flex-end;
+  padding-right: 5vw;
+  font-size: 2.5vw;
+  text-transform: uppercase;
+  font-family: "Scheherazade New", serif;
+}
+
+#overskrift h5 {
+  font-size: 4vw;
+  margin-top: 10vw;
+}
+
+#section_1 p {
+  margin-left: 4vw;
+  margin-top: 10vw;
+  font-size: 1rem;
+}
+#section_1 img {
+  width: 80%;
+  margin-left: 1vw;
+  margin-top: 10vw;
+}
+
+#section_2 img {
+  width: 80%;
+  margin-top: 15vw;
+}
+
+#overskrift_2 h5 {
+  font-size: 4vw;
+  margin-top: 15vw;
+}
+
+#overskrift_3 h5 {
+  font-size: 2.4vw;
+  margin-top: 10vw;
+}
+
+#section_3 p {
+  margin-top: 2vw;
+  padding-left: 6vw;
+}
+
+#illustration img {
+  max-width: 25%;
+}
+#overskrift_4 h5 {
+  font-size: 2.4vw;
+  margin-top: 10vw;
+}
+
+#section_4 p {
+  margin-top: 2vw;
+  padding-left: 6vw;
+}
+
+#overskrift_5 h5 {
+  font-size: 2.4vw;
+  margin-top: 10vw;
+  padding-left: 6vw;
+}
+
+#section_5 p {
+  margin-top: 2vw;
+  padding-left: 6vw;
+}
+
+button {
+  padding: 1rem;
+  background: #fff8ed;
+  text-align: center;
+  text-decoration: none;
+  font-family: "Scheherazade New", serif;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-size: 1.5rem;
+  transition: all 0.2s ease;
+  cursor: pointer;
+  margin-top: 5vw;
+
+  /* margin: 0 1rem 0 0; */
+}
+
+button:hover {
+  background-color: #f35603;
+}
+
+button:active {
+  background-color: var(--bg-color);
+}
