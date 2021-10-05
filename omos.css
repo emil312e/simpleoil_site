@@ -2,7 +2,7 @@ body {
   background-color: #fff8ed;
 }
 
-.img-fluid {
+.menulogo img {
   padding: 0.25rem;
   max-width: 8rem;
   height: 8rem;
@@ -16,16 +16,22 @@ body {
   font-family: "Scheherazade New", serif;
 }
 
-#overskrift_5 h5 {
-  font-size: 3.5rem;
-  margin-top: 15vw;
+#section_1 {
+  background-color: #c2c69a;
+  width: auto;
+  height: 55rem;
+  margin-top: -2vw;
+}
+#section_1 h5 {
+  font-size: 2rem;
+  margin-top: 10vw;
+  margin-left: 9vw;
   font-family: "Scheherazade New", serif;
 }
 
-#overskrift_2 h5 {
-  font-size: 2.6vw;
-  margin-top: 5vw;
-  padding-left: 5vw;
+#overskrift_5 h5 {
+  font-size: 4.5rem;
+  margin-top: 15vw;
   font-family: "Scheherazade New", serif;
 }
 
@@ -38,14 +44,4 @@ body {
   padding-left: 10vw;
   margin-top: 2vw;
   align-items: center;
-}
-
-.box_4 {
-  background-color: #f8935c;
-  position: absolute;
-  height: 90%;
-  width: 90%;
-  left: 5%;
-  top: 50%;
-  z-index: -20;
 }

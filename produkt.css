@@ -2,7 +2,7 @@ body {
   background-color: #fff8ed;
 }
 
-.img-fluid {
+.menulogo img {
   padding: 0.25rem;
   max-width: 8rem;
   height: 8rem;
@@ -29,81 +29,76 @@ body {
   font-family: "Scheherazade New", serif;
 }
 
-#section_1 img {
-  width: 60%;
-  margin-top: 2vw;
+#section_1 {
+  background-color: #fbdf90;
+  width: auto;
+  height: 55rem;
 }
 
-#section_1 p {
-  padding-left: 10vw;
-  margin-top: 2vw;
-  align-items: center;
-}
-
-#overskrift_3 h5 {
-  font-size: 2.6vw;
-  margin-top: 30vw;
+#section_1 h5 {
+  margin-top: 10vw;
+  font-size: 2rem;
   padding-left: 9.2vw;
   font-family: "Scheherazade New", serif;
 }
 
+#section_1 img {
+  width: 60%;
+  margin-top: -8vw;
+}
+
+#section_1 p {
+  margin-top: -7vw;
+  padding-left: 9.3vw;
+}
+
+#section_2 h5 {
+  font-size: 2rem;
+  margin-top: 10vw;
+  padding-left: 9.2vw;
+  font-family: "Scheherazade New", serif;
+}
+
+#section_2 {
+  background-color: #b8b5d2;
+  width: auto;
+  height: 55rem;
+  margin-top: 25vw;
+}
+
 #section_2 img {
   width: 60%;
-  margin-top: 2vw;
+  margin-top: -5vw;
 }
 
 #section_2 p {
-  padding-left: 10vw;
-  margin-top: 2vw;
+  padding-left: 9.3vw;
+  margin-top: -2vw;
   align-items: center;
 }
 
-#overskrift_4 h5 {
-  font-size: 2.6vw;
-  margin-top: 30vw;
-  padding-left: 9.2vw;
+#section_3 {
+  background-color: #c2c69a;
+  width: auto;
+  height: 55rem;
+  margin-top: 25vw;
+}
+#section_3 h5 {
+  font-size: 2rem;
+  margin-top: 10vw;
+  padding-left: 9.5vw;
   font-family: "Scheherazade New", serif;
 }
 
 #section_3 img {
   max-width: 60%;
-  margin-top: 2vw;
+  margin-top: -6vw;
 }
 
 #section_3 p {
-  padding-left: 10vw;
-  margin-top: 2vw;
+  padding-left: 9.6vw;
+  margin-top: -2vw;
   align-items: center;
-}
-
-.box {
-  background-color: #fbdb82;
-  position: absolute;
-  height: 90%;
-  width: 90%;
-  left: 5%;
-  top: 50%;
-  z-index: -20;
-}
-
-.box_2 {
-  background-color: #b8b5d2;
-  position: absolute;
-  height: 90%;
-  width: 90%;
-  left: 5%;
-  top: 170%;
-  z-index: -20;
-}
-
-.box_3 {
-  background-color: #a6af73;
-  position: absolute;
-  height: 90%;
-  width: 90%;
-  left: 5%;
-  top: 290%;
-  z-index: -20;
 }
 
 button {

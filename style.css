@@ -2,7 +2,7 @@ body {
   background-color: #fff8ed;
 }
 
-.img-fluid {
+.menulogo img {
   padding: 0.25rem;
   max-width: 8rem;
   height: 8rem;
@@ -16,9 +16,17 @@ body {
   font-family: "Scheherazade New", serif;
 }
 
+#splashbillede img {
+  max-width: 105vw;
+  height: auto;
+  align-items: center;
+  margin-left: -5vw;
+}
+
 #overskrift h5 {
   font-size: 4vw;
   margin-top: 10vw;
+  font-family: "Scheherazade New", serif;
 }
 
 #section_1 p {
@@ -28,7 +36,6 @@ body {
 }
 #section_1 img {
   width: 80%;
-  margin-left: 1vw;
   margin-top: 10vw;
 }
 
@@ -40,43 +47,83 @@ body {
 #overskrift_2 h5 {
   font-size: 4vw;
   margin-top: 15vw;
+  font-family: "Scheherazade New", serif;
 }
 
-#overskrift_3 h5 {
+#section_3 h5 {
   font-size: 2.4vw;
   margin-top: 10vw;
+  padding-left: 8vw;
+  font-family: "Scheherazade New", serif;
 }
 
 #section_3 p {
-  margin-top: 2vw;
-  padding-left: 6vw;
+  margin-top: -5vw;
+  padding-left: 8.2vw;
+}
+#section_3 img {
+  margin-top: -5vw;
+  width: 80%;
+}
+
+#section_3 {
+  background-color: #f8935c;
+  width: auto;
+  height: 50rem;
+  margin-top: 5vw;
 }
 
 #illustration img {
   max-width: 25%;
+  margin-top: 15vw;
 }
-#overskrift_4 h5 {
+#section_4 h5 {
   font-size: 2.4vw;
   margin-top: 10vw;
+  padding-left: 8vw;
+  font-family: "Scheherazade New", serif;
 }
 
 #section_4 p {
-  margin-top: 2vw;
-  padding-left: 6vw;
+  margin-top: -7vw;
+  padding-left: 8.2vw;
+}
+#section_4 img {
+  margin-top: -7vw;
+  width: 80%;
 }
 
-#overskrift_5 h5 {
+#section_4 {
+  background-color: #f8935c;
+  width: auto;
+  height: 50rem;
+  margin-top: 15vw;
+}
+
+#section_5 h5 {
   font-size: 2.4vw;
   margin-top: 10vw;
-  padding-left: 6vw;
+  padding-left: 8vw;
+  font-family: "Scheherazade New", serif;
 }
 
 #section_5 p {
-  margin-top: 2vw;
-  padding-left: 6vw;
+  margin-top: -15vw;
+  padding-left: 8.2vw;
+}
+#section_5 img {
+  margin-top: -12vw;
+  width: 100%;
 }
 
-button {
+#section_5 {
+  background-color: #f8935c;
+  width: auto;
+  height: 50rem;
+  margin-top: 20vw;
+}
+
+.button a {
   padding: 1rem;
   background: #fff8ed;
   text-align: center;
@@ -93,7 +140,7 @@ button {
 }
 
 button:hover {
-  background-color: #f35603;
+  background-color: #f8935c;
 }
 
 button:active {
